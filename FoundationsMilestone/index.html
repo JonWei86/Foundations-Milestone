@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="div-body">
+        <h1>My Bookshelf</h1>
+        <div id="nav-bar">
+          <span class="nav-group"><a href="index.html">Home</a></span>
+          <span class="nav-group"><a href="about.html">About</a></span>
+          <span class="nav-group"><a href="contact.html">Contact</a></span>
+        </div>
+          <form id="book-form">
+            <div class="form-group">
+              <label for="title">Title</label>
+              <input type="text" id="title">
+            </div>
+            <div class="form-group">
+              <label for="author">Author</label>
+              <input type="text" id="author">
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject">
+            </div>
+            <div class="form-group">
+              <label for="language">Language</label>
+              <input type="text" id="language">
+            </div>
+            <input type="submit" value="Add Book" class="btn" id="add-book-btn">
+          </form>
+          <table>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Subject</th>
+                <th>Language</th>
+                <th>Comments</th>
+                <th id="thX">X</th>
+              </tr>
+            </thead>
+            <tbody id="book-list">
+            </tbody>
+          </table>
+      </div>
+    <script src="index.js"></script>
+</body>
+</html>

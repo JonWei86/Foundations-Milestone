@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+}
+
+h1{
+    background-color: #1C6758;
+    color:white;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2.5rem;
+}
+
+html{
+    width: 100%;
+    background-color: #EEF2E6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav-bar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #3D8361;
+    padding: .5rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#div-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #D6CDA4;
+}
+
+label{
+    display: flex;
+    font-size: large;
+    color: black;
+    width: 100%;
+    justify-content: center;
+}
+
+input{
+    justify-content: center;
+    margin: .25rem;
+    align-items: center;
+}
+
+#book-form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 1rem;
+}
+
+#add-book-btn{
+    border: none;
+    background-color: #1C6758;
+    color: white;
+    font-size: large;
+    margin-top: 1rem;
+}
+
+#add-comment-btn{
+    border: none;
+    background-color: #1C6758;
+    color: white;
+}
+
+#title{
+    width: 50%;
+}
+
+#author{
+    width: 50%;
+}
+
+#subject{
+    width: 50%;
+}
+
+#language{
+    width: 50%;
+}
+
+thead{
+    background-color: #3D8361;
+    color: white;
+}
+
+table{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#thX{
+    color: #3D8361;
+}
+
+.form-group{
+    margin: 0.2rem;
+}
+
+.text-content{
+    padding: 1rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+p{
+    background-color: #EEF2E6;
+    padding: 2rem;
+    margin: 0
+    ;
+}
+
+.link-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+#contact-title{
+    padding: 1rem;
+}
+
+.link-div{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.link{
+    color: black;
+    text-align: center;
+}
